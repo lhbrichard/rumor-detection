@@ -1,0 +1,19 @@
+epochs 15
+只是GCN		0.8396	all data 30 epochs
+base 单层GCN	0.8283	两个loss仍有下降趋势且较低
+		0.8384	30/40 30轮后没啥效果了
+		0.8498	all data 30epochs
+base 多层GCN	0.8367	35轮
+单层GAT		0.7879	valloss比train高 有点平缓
+加root		0.7374	valloss有起伏 且上升？
+双向		0.7980	两个loss仍有下降趋势且较低  (但train acc 仍未达到1 且两个loss都是5多，其他为2多)
+		0.8060	40轮后的结果 loss和train几乎重叠平缓 可能过拟合 不太对劲重合 
+		0.8294	30轮 all data 
+无方向
+GAE		0.8485	两个loss比之前的都低，首次达到2以下，且accuracy还有上升趋势
+			30轮还是0.8485
+		0.8498	30轮 all data
+单向然而是BU	0.3535	很差 loss 情况很怪 直线下降后平缓 准确率起伏很大
+DropEdge
+
+
