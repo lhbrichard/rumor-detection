@@ -63,22 +63,22 @@ With two arguments, first stands for dataset's name, the latter is the name of t
 # Result
 Here we only show part of result in the experiment, more details can be seen in the paper.
 
-model_name \ acc. | Twitter | Weibo
-- | :-: | :-:
-baseline | 0.737 | 0.908
-only GCN | 0.840 | 0.935
-AE-GCN | 0.851 | 0.942
-VAE-GCN | **0.856** | **0.944**
+model_name \ acc. | Twitter | Weibo |
+- | :-: | :-: |
+baseline | 0.737 | 0.908 |
+only GCN | 0.840 | 0.935 |
+AE-GCN | 0.851 | 0.942 |
+VAE-GCN | **0.856** | **0.944** |
 
 Except the main experiment, we also try some tricks to improve model, however we get the worse effect.
 
-model_name | result
-- | :-: 
-only GCN | 0.8396
-one-layer GCN | 0.8498
-two-layers GCN | 0.8367
-GAT | 0.7879
-GCN add root | 0.7374
-bidirect | 0.8294
-GAE | 0.8498
-Bottom-up direction GAE | 0.3535
+model_name | result |
+- | :-: |
+only GCN | 0.8396 |
+one-layer GCN | 0.8498 |
+two-layers GCN | 0.8367 |
+GAT | 0.7879 |
+GCN add root | 0.7374 |
+bidirect | 0.8294 |
+GAE | 0.8498 |
+Bottom-up direction GAE | 0.3535 |
