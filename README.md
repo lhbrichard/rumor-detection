@@ -1,5 +1,5 @@
 # Rumor-Detection
-The public code for paper **detection** which is accepted by DSAA 2020
+The public code for paper **A Graph Convolutional Encoder and Decoder Model for Rumor Detection** which is accepted by DSAA 2020
 
 # Table of Contents
 - data <br>
